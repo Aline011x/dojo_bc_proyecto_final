@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>EasyBay</title>
+</head>
+<body>
+
+    <header class="head">
+        <nav class="nav1">
+            <img class="nav_logo" src="./img/assets/leaf.png" alt="logo">
+            <h3 class="tittle">EasyBay</h3>
+            <input type="text" class="nav_input" placeholder="Search for anything">
+            <a  href="#" class="nav1_button">Sign In</a>
+            <img class="image_navcar" onclick="car_empty()" src="./img/assets/cart-dark.png" alt="car shop">
+        </nav>
+
+        <nav class="nav2">
+            <ul class="list_nav2">
+                <li class="list_nav">Aeonium</li>
+                <li class="list_nav">Andorrnischus</li>
+                <li class="list_nav">Agave</li>
+                <li class="list_nav">Aloe</li>
+                <li class="list_nav">Anacampseros</li>
+                <li class="list_nav">Aristaloe</li>
+                <li class="list_nav"><a href="#" class="more">More....</a></li>
+            </ul>
+            <div class="line_separator"></div>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="tittle_main">Your Source for Serious Succulent Specialties</h1>
+
+        <div class="main_container">
+            <div class="container1">
+                <div class="div1">
+                    <div class="text_main">
+                        <p class="p1_main">Discover succ-ulent varieties
+                        one pot or rack at a time!</p>
+                        <p class="p2_main"><a href="#" class="arrows">Discover <img class="arrow" src="./img/assets/arrow-light.png" alt="arrow image"></a></p>
+                    </div>
+                    <img class="image_div1" src="./img/assets/succulents-1.jpg" alt="succulents image 1" onmouseover="changeImg()" onmouseout="resetImg()">
+                </div>
+
+                <div class="div2">
+                    <img class="image_div2" src="./img/assets/aloe-m.jpg" alt="image div 2" >
+                    <div class="text_div2">
+                        <p class="parrafo div2"><a href="#" class="arrows">Soothing aloe <img class="arrow" src="./img/assets/arrow-light.png" alt="arrow image"></a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container2">
+                <figure class="images">
+                    <img src="./img/assets/aeonium-s.jpg" alt="list of plants" class="img_list">
+                    <figcaption>Aeonium</figcaption>
+                </figure>
+                <figure class="images">
+                    <img src="./img/assets/aloe-s.jpg" alt="list of plants" class="img_list">
+                    <figcaption>Aloe</figcaption>
+                </figure>
+                <figure class="images">
+                    <img src="./img/assets/cactus-s.jpg" alt="list of plants" class="img_list">
+                    <figcaption>Cactus</figcaption>
+                </figure>
+                <figure class="images">
+                    <img src="./img/assets/echeveria-s.jpg" alt="list of plants" class="img_list">
+                    <figcaption>Echeveria</figcaption>
+                </figure>
+                <figure class="images">
+                    <img src="./img/assets/sedum-s.jpg" alt="list of plants" class="img_list">
+                    <figcaption>Sedium</figcaption>
+                </figure>
+                <figure class="images">
+                    <img src="./img/assets/sempervivum-s.jpg" alt="list of plants" class="img_list">
+                    <figcaption>Sempervivum</figcaption>
+                </figure>
+            </div>
+        </div>
+    </main>
+    <footer class="cookie_container">
+        <img src="./img/assets/alert-dark.png" alt="alert cookie">
+        <p class="parrafo_cookie">This site makes use of third-party cookies, by clicking "l accept" you agree to the
+            terms outlined in our <a href="#" class="policy_cookie">cookie policy</a></p>
+        <a href="#" onclick="del_cookies()" class="footer_button">I Accept</a>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
